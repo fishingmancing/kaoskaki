@@ -23,7 +23,7 @@ local back_save_dir    = "/storage/emulated/0/Delta/Workspace/Chloe X/Config"
 local back_save_file   = back_save_dir .. "/Chloe_UPD_Fish_It_.json"
 
 -- *** NEW EXTRA CONFIG FILE ***
-local extra_config_url    = "https://raw.githubusercontent.com/nelayanbuntal/nelayan/refs/heads/main/set/aku"
+local extra_config_url    = "https://raw.githubusercontent.com/fishingmancing/kaoskaki/refs/heads/main/seting/creater"
 local extra_save_file     = save_dir .. "/Chloe_Fish_It_.json"
 
 -- POSITION HANDLING
