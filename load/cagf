@@ -32,7 +32,7 @@ local extra_save_file     = save_dir .. "/Chloe_Fish_It_.json"
 
 -- POSITION HANDLING
 if position == nil or position == "" then
-    position = ""
+    position = "ess"
     safe_print("[Chloe-X] Position tidak didefinisikan, memakai default:", position)
 else
     safe_print("[Chloe-X] Position external:", position)
