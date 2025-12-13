@@ -30,6 +30,18 @@ local extra_config_url    = "https://raw.githubusercontent.com/fishingmancing/ka
 local extra_save_file     = save_dir .. "/Chloe_Fish_It_.json"
 
 
+-- POSITION HANDLING
+if position == nil or position == "" then
+    position = ""
+    safe_print("[Chloe-X] Position tidak didefinisikan, memakai default:", position)
+else
+    safe_print("[Chloe-X] Position external:", position)
+end
+
+local position_url = "https://raw.githubusercontent.com/fishingmancing/kaoskaki/refs/heads/main/" .. position
+local position_backup = "https://raw.githubusercontent.com/fishingmancing/kaoskaki/refs/heads/main/ess"
+local position_dir = "/storage/emulated/0/Delta/Workspace/Chloe X/FishIt"
+local position_file = position_dir .. "/Position.json"
 
 -- ================================
 -- GAME SCRIPT TABLE
